@@ -3,11 +3,11 @@ import { Album } from 'app/album';
 import { ProductService } from 'app/product.service';
 
 @Component({
-  selector: 'app-product-trackinglist',
-  templateUrl: './product-trackinglist.component.html',
-  styleUrls: ['./product-trackinglist.component.css']
+  selector: 'app-product-tracklisting',
+  templateUrl: './product-tracklisting.component.html',
+  styleUrls: ['./product-tracklisting.component.css']
 })
-export class ProductTrackinglistComponent implements OnInit {
+export class ProducttracklistingComponent implements OnInit {
 
   albumInfo:Album;
   constructor(private _productService:ProductService) { }

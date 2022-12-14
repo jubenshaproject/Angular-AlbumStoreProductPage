@@ -74,42 +74,42 @@ describe("ProductTracklisting", () => {
 
     assert(
       trackNumber.hasClass("track-number"),
-      "The ProductTrackinglistComponent should have a `span` with a class of `track-number`."
+      "The ProducttracklistingComponent should have a `span` with a class of `track-number`."
     );
 
     assert(
       trackNumber.text().match(/\s*{{\s*track.trackNumber\s*}}\s*/),
-      "The ProductTrackinglistComponent should have a `span` with a class of `track-number` with a text of `{{track.trackNumber}}`."
+      "The ProducttracklistingComponent should have a `span` with a class of `track-number` with a text of `{{track.trackNumber}}`."
     );
 
     assert(
       trackName.hasClass("track-name"),
-      "The ProductTrackinglistComponent should have a `span` with a class of `track-name`."
+      "The ProducttracklistingComponent should have a `span` with a class of `track-name`."
     );
 
     assert(
       trackName.text().match(/\s*{{\s*track.trackName\s*}}\s*/),
-      "The ProductTrackinglistComponent should have a `span` with a class of `track-name` with a text of `{{track.trackName}}`."
+      "The ProducttracklistingComponent should have a `span` with a class of `track-name` with a text of `{{track.trackName}}`."
     );
 
     assert(
       trackTime.hasClass("track-time"),
-      "The ProductTrackinglistComponent should have a `span` with a class of `track-time`."
+      "The ProducttracklistingComponent should have a `span` with a class of `track-time`."
     );
 
     assert(
       trackTime.text().match(/\s*{{\s*track.trackLength\s*}}\s*/),
-      "The ProductTrackinglistComponent should have a `span` with a class of `track-time` with a text of `{{track.trackLength}}`."
+      "The ProducttracklistingComponent should have a `span` with a class of `track-time` with a text of `{{track.trackLength}}`."
     );
 
     assert(
       trackPrice.hasClass("price-and-buy"),
-      "The ProductTrackinglistComponent should have a `span` with a class of `price-and-buy`."
+      "The ProducttracklistingComponent should have a `span` with a class of `price-and-buy`."
     );
 
     assert(
       trackPrice.text().match(/\s*{{\s*track.trackPrice\s*}}\s*/),
-      "The ProductTrackinglistComponent should have a `span` with a class of `price-and-buy` with a text of `{{track.trackPrice}}`."
+      "The ProducttracklistingComponent should have a `span` with a class of `price-and-buy` with a text of `{{track.trackPrice}}`."
     );
   });
 });
